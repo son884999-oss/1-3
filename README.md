@@ -10,25 +10,33 @@ Make/Ziaper
 
 공통 
 
-Google Form 이름과 점수를 입력받습니다
-Google sheets 받은 데이터를 기록합니다
+Google Form 이름과 점수를 입력받습니다.
+
+Google sheets 받은 데이터를 기록합니다.
 
 1. make 
 
 Make에서
+
 트리거 :Google sheets의 Watch new row기능으로 새로 등록된 데이터를 확인합니다.
+
 필터 :입력된 항목중 점수가 80점 이상인 경우와 80점 미만인 경우를 Router 기능을 통해 분기해 기능을 다르게 처리합니다.
 
 액션 가. 80점 이상인 경우 Gmail sent an email 에서 합격 메일을 보냅니다
+
 액션 나. 80점 미만인 경우 Gmail sent an email 에서 불합격 메일을 보냅니다.
 
 2. Zapier
+3. 
 트리거 : Google sheets의 New or updated spreadsheets Row로 추가되거나 업데이트 된 데이터를 확인합니다
+
 필터 : Paths 의 Split into paths 기능을 통해 80점 이상인 경우와 80점미만인 경우를 분기합니다
+
 액션 가. 80점 이상인 경우 Gmail의 sent Email 으로 합격메일을 보냅니다.
+
 액션 나. 80점 이상인 경우 Gmail의 sent Email 으로 불합격메일을 보냅니다.
 
-Make vs Zapier 비교 분석
+### Make vs Zapier 비교 분석
 
  종합 비교표
 

@@ -36,6 +36,10 @@ Make에서
 
 액션 나. 80점 이상인 경우 Gmail의 sent Email 으로 불합격메일을 보냅니다.
 
+
+<img width="924" height="775" alt="Zipier 메인화면" src="https://github.com/user-attachments/assets/8ae87ed3-0613-4660-a680-7f057496dd22" />
+<img width="1809" height="870" alt="Make 조건분기" src="https://github.com/user-attachments/assets/840d88a0-28ff-4406-b745-9f2e4181e61d" />
+
 ### Make vs Zapier 비교 분석
 
  종합 비교표
@@ -119,3 +123,30 @@ Make에서
 | 다양한 앱 연동이 필요한 경우 | ✅ **Zapier** | 6,000개 이상 앱 지원 |
 | 개발자 / 기술 친화적 사용자 | ✅ **Make** | API 커스텀 연동, 데이터 가공 자유도 높음 |
 | 팀 협업 중심 | ✅ **Zapier** | 성숙한 팀 협업 기능, 공유 Zap 관리 |
+
+### 프로젝트 2
+## 자유 주제: AI 관련 뉴스 자동 수집 및 정리
+
+### 반복 업무 정의
+매일 여러 뉴스 사이트를 방문해 AI 관련 기사(ChatGPT, Claude, Gemini, GPT 등)를
+직접 검색하고, 관심 기사를 골라 스프레드시트에 제목·링크·날짜를 정리한 뒤
+메일로 공유하는 작업. 하루에도 여러 번 반복되어 시간 소모가 큼.
+
+### 선정 도구: Make
+**선정 이유**
+- 시각적 노드 기반이라 Trigger→Filter→Action 흐름을 직관적으로 설계 가능
+- 무료 플랜(1,000 Ops/월) 범위 내에서 구현 가능해 과금 리스크 없음
+- RSS, AI 모듈, Gmail, Google Sheets 등 필요한 커넥터를 모두 지원
+
+### 워크플로우 흐름
+1) **Trigger**: RSS – Watch RSS feed items (새 뉴스 기사 감지)
+2) **Filter(조건 분기)**: AI 도구(Claude/Gemini/ChatGPT/GPT) 관련 및 "AI"라는 단어가 포함된 기사만 통과 
+3) **Action 1**: Gmail – Send an Email (필터 통과한 기사 메일 발송)
+4) **Action 2**: Google Sheets – Add a Row
+   (제목 / 링크 / 수집일시 자동 기록)
+
+### 스케줄링
+- 15분 주기로 자동 실행되도록 설정 (Trigger 발생 시 자동 동작)
+
+<img width="1452" height="614" alt="MAKE 실행" src="https://github.com/user-attachments/assets/59b709b0-9dcb-4f2d-9729-cb976317d0d4" />
+<img width="684" height="716" alt="분기" src="https://github.com/user-attachments/assets/06bbdb75-fc54-4e09-8b65-9e4a74444e5c" />

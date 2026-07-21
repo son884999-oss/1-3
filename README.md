@@ -13,6 +13,8 @@ Make/Ziaper
 Google Form 이름과 점수를 입력받습니다.
 
 Google sheets 받은 데이터를 기록합니다.
+<img width="929" height="474" alt="데이터 시트" src="https://github.com/user-attachments/assets/c3a75650-fb37-4fda-adbf-68e57c4f9f48" />
+
 
 1. make 
 

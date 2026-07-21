@@ -27,7 +27,7 @@ Make에서
 액션 가. 80점 이상인 경우 Gmail sent an email 에서 합격 메일을 보냅니다
 
 액션 나. 80점 미만인 경우 Gmail sent an email 에서 불합격 메일을 보냅니다.
-
+<img width="1809" height="870" alt="Make 조건분기" src="https://github.com/user-attachments/assets/840d88a0-28ff-4406-b745-9f2e4181e61d" />
 2. Zapier
 3. 
 트리거 : Google sheets의 New or updated spreadsheets Row로 추가되거나 업데이트 된 데이터를 확인합니다
@@ -40,7 +40,6 @@ Make에서
 
 
 <img width="924" height="775" alt="Zipier 메인화면" src="https://github.com/user-attachments/assets/8ae87ed3-0613-4660-a680-7f057496dd22" />
-<img width="1809" height="870" alt="Make 조건분기" src="https://github.com/user-attachments/assets/840d88a0-28ff-4406-b745-9f2e4181e61d" />
 
 ### Make vs Zapier 비교 분석
 

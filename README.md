@@ -154,3 +154,7 @@ Make에서
 - 
 <img width="1452" height="614" alt="MAKE 실행" src="https://github.com/user-attachments/assets/59b709b0-9dcb-4f2d-9729-cb976317d0d4" />
 <img width="684" height="716" alt="분기" src="https://github.com/user-attachments/assets/06bbdb75-fc54-4e09-8b65-9e4a74444e5c" />
+
+# 전체화면
+<img width="1920" height="1031" alt="15m" src="https://github.com/user-attachments/assets/6c47c4fd-44bd-480e-a6d2-5d87dd03cae6" />
+ 

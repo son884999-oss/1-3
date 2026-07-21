@@ -145,8 +145,10 @@ Make에서
 4) **Action 2**: Google Sheets – Add a Row
    (제목 / 링크 / 수집일시 자동 기록)
 
-### 스케줄링
-- 15분 주기로 자동 실행되도록 설정 (Trigger 발생 시 자동 동작)
-
+### 스케줄링 및 Trigger 작동 원리
+- Make 시나리오를 15분 주기로 스케줄링하여, RSS 피드를 자동으로 폴링(체크)함
+- 폴링 시 새로운 기사가 감지되면 Trigger가 발동하여 시나리오 전체가 자동 실행됨
+- 즉, "15분마다 확인 → 새 기사 존재 시 자동 실행" 구조로 동작
+- 
 <img width="1452" height="614" alt="MAKE 실행" src="https://github.com/user-attachments/assets/59b709b0-9dcb-4f2d-9729-cb976317d0d4" />
 <img width="684" height="716" alt="분기" src="https://github.com/user-attachments/assets/06bbdb75-fc54-4e09-8b65-9e4a74444e5c" />
